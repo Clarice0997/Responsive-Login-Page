@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.landing {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -100;
+}
+
+.dots {
+  position: fixed;
+  top: 136.91px;
+  left: 23.31px;
+  z-index: -100;
+  width: 41.25px;
+  height: 90.27px;
+}
+
+.left-circle {
+  position: absolute;
+  width: 111px;
+  height: 111px;
+  left: 0px;
+  top: 663px;
+  border-radius: 50%;
+  background: radial-gradient(70% 70% at 70% 64.8%, rgba(27, 173, 222, 0.6) 0%, rgba(255, 255, 255, 0.5) 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS 和 may not behave as expected */
+  ;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  padding: 0 2rem;
+}
+
+.left-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 9vw;
+}
+
+.h1-title {
+  width: 500px;
+  height: 119.68px;
+  color: #095073;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+form {
+  width: 360px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-container>img {
+  width: 400px;
+}

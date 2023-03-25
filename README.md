@@ -1,4 +1,4 @@
-# Responsive-Login-Page
+# Responsive-Page
 
 ## Sliding Sign In & Sign Up Form
 
